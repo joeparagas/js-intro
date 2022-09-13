@@ -23,6 +23,14 @@ Declare the following variables and assign your own string values for each varia
   favFood
 */
 
+let firstName = 'joe';
+let lastName = 'paragas';
+let birthPlace = 'honolulu';
+let favColor = 'blue';
+let favFood = 'apple pie';
+
+console.log(firstName,lastName,birthPlace, favColor, favFood);
+
 
 /*
 * #2
@@ -34,6 +42,14 @@ Declare the following variables and assign your own number values for each varia
   abcStoresInHi
   princeSong
 */
+
+let age = 25;
+let shoeSize = 10; 
+let mcdonaldsInHi = 1000000000000; 
+let abcStoresInHi = 1000000000000;
+let princeSong = 1;
+
+console.log(age, shoeSize, mcdonaldsInHi, abcStoresInHi, princeSong);
 
 
 /*
@@ -47,6 +63,15 @@ Declare the following variables and assign your own boolean values for each vari
   beenToParis
 */
 
+let lovesMcdonalds = false;
+let isVegan = false;
+let olderThan21 = true;
+let hasNetFlix = true;
+let beenToParis = false; 
+
+console.log(lovesMcdonalds, isVegan, olderThan21, hasNetFlix, beenToParis);
+
+console.log('\n');
 
 /*
 * #4
@@ -60,6 +85,21 @@ Declare a variable named `tagTeam` and assign it an array containing 3 arrays, w
 Console.log each variable to check your work
 */
 
+let plateLunch = ['french fries', 'lettuce wraps', 'quesadillas', 'chicken tenders', 'chicken katsu' ];
+let candyBox = ['m & ms' , 'resses', 'snickers', 'almond joy', 'crunch'];
+let westSiiiiide = ['california', 'arizona', 'washington', 'oregon'];
+let lotteryResult = [12, 8, 24, 999, 2];
+let hamajang = ['int', 'byte', 'string', 'float', 'boolean', 'char'];
+let tagTeam = [['music', 'late night'], ['fall', 'football'], ['waffles' , 'syrup']];
+
+console.log(plateLunch);
+console.log(candyBox); 
+console.log(westSiiiiide);
+console.log(lotteryResult); 
+console.log(hamajang); 
+console.log(tagTeam[0], tagTeam[1], tagTeam[2]);
+
+console.log('\n');
 
 /*
 * #5
@@ -71,6 +111,10 @@ Console.log 'sweet potato fries' from this array.
 Console.log 'steak nachos' from this array.
 */
 
+let partyMenu = ['steak nachos', 'fried rice', 'bbq ribs', 'sweet potato fries', 'chicken wings', 'carrot cake', 'chi chi dango'];
+console.log(partyMenu);
+console.log(partyMenu.length);
+console.log(partyMenu[3], partyMenu[0]);
 
 /*
 #6
@@ -80,8 +124,10 @@ Using the fullName and birthPlace variables, console.log the following:
 "Hi my name is fullName and I was born in birthPlace." 
 */
 
+let fullName = firstName + ' ' + lastName;
+console.log('Hi my name is ' + fullName + ' ' + 'and I was born in ' + birthPlace);
 
-
+console.log('\n');
 /*
 * #7
 * Variables with an OBJECT value
@@ -103,5 +149,29 @@ Declare the following variables and add your own values to each name to complete
     - rating
     - helpful
 */
+
+const kicks = {
+  brand: 'jordan',
+  size: '11',
+  color: 'white and blue'
+}
+
+const car = {
+  brand: 'lamborghini',
+  model: 'aventador',
+  color: 'blue'
+}
+
+const bank = {
+  name: 'central pacific bank' ,
+  branch: 'pearl city',
+  location: '1030 Makolu Street',
+  rating: '5 stars',
+  helpful: 'really'
+}
+
+console.log(kicks); 
+console.log(car); 
+console.log(bank);
 
 
